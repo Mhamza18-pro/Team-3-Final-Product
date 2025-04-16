@@ -129,8 +129,7 @@ nav.navbar {
   background-color: #f9f9f9;
 }
 .login-body {
-  background: url('../assets/ksu-banner.jpg') no-repeat center center fixed;
-  background-size: cover;
+  background-color: #f0f0f0;
   display: flex;
   justify-content: center;
   align-items: center;
