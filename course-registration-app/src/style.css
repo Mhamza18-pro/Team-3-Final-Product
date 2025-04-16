@@ -1,0 +1,285 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f3f3f3;
+  color: #333;
+}
+nav.navbar {
+  background-color: #2b2d42;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar h1 {
+  margin: 0;
+  font-size: 26px;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  font-size: 18px;
+}
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  
+}
+.dashboard {
+  text-align: center;
+  padding: 50px 20px;
+  background: url('https://albiongc.com/wp-content/uploads/2023/01/Scrappy_KSU-1024x576.jpg') no-repeat center center fixed;
+  background-size: cover;
+  background-color: transparent;
+  min-height: 100vh;
+  color: white;
+  backdrop-filter: opacity(50%);
+  /* opacity: 0.5; */
+}
+
+.dashboard-buttons {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.dashboard-content h2{
+  font-size: 26px;
+}
+.dashboard-content p {
+  font-size: 18px;
+}
+
+.dash-btn {
+  display: inline-block;
+  width: 240px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffcc00;
+  border-radius: 10px;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.0rem;
+  transition: background-color 0.2s ease-in-out;
+  opacity: 1;
+  font-size: 17px;
+}
+
+.dash-btn:hover {
+  background-color: #e6b800;
+  
+}
+
+.registration {
+  padding: 30px;
+  text-align: center;
+}
+
+.registration form {
+  display: inline-block;
+  text-align: left;
+}
+.payment {
+  text-align: center;
+  padding: 40px;
+}
+
+.payment ul {
+  list-style-type: disc;
+  text-align: left;
+  margin: 0 auto;
+  width: fit-content;
+  padding-left: 20px;
+}
+.schedule-viewer {
+  padding: 40px;
+  text-align: center;
+}
+
+.schedule-table {
+  width: 90%;
+  max-width: 900px;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.schedule-table th, .schedule-table td {
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+}
+
+.schedule-table th {
+  background-color: #2b2d42;
+  color: white;
+  text-align: left;
+}
+
+.schedule-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+.login-body {
+  background: url('../assets/ksu-banner.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.login-container {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 40px;
+  border-radius: 12px;
+  width: 300px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.login-container h1 {
+  margin-bottom: 20px;
+}
+
+.login-container label {
+  display: block;
+  text-align: left;
+  margin: 10px 0 5px;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+.support-page {
+  padding: 40px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.support-section {
+  margin-bottom: 40px;
+}
+
+.support-section textarea,
+.support-section input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.chat-message {
+  margin-top: 15px;
+  font-weight: bold;
+}
+.login-hint {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #444;
+  background: #f0f0f0;
+  padding: 10px;
+  border-radius: 8px;
+}
+.payment-page {
+  padding: 40px;
+  max-width: 900px;
+  margin: auto;
+}
+
+#tuition-details p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+#total-balance {
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: #2b2d42;
+}
+.history-page {
+  padding: 40px;
+  max-width: 1000px;
+  margin: auto;
+}
+.home-link {
+  color: white;
+  text-decoration: none;
+}
+
+.home-link:hover {
+  text-decoration: none;
+}
+.dashboard {
+  position: relative;
+  text-align: center;
+  padding: 50px 20px;
+  background: url('https://albiongc.com/wp-content/uploads/2023/01/Scrappy_KSU-1024x576.jpg') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  color: white;
+  overflow: hidden;
+}
+
+.dashboard-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* Darken effect */
+  z-index: 0;
+}
+
+.dashboard-content {
+  position: relative;
+  z-index: 1;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.page-wrapper main {
+  flex: 1;
+}
+
+.site-footer {
+  background-color: #2b2d42;
+  color: white;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  /* padding: 15px 0; */
+  /* font-size: 0.95rem; */
+  /* border-top: 2px solid #ffcc00; */
+  /* width: 100%; */
+}

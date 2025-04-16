@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Support</title>
+  <link rel="stylesheet" href="../src/style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <h1><a href="home.html" class="home-link">Owl Express</a></h1>
+    <ul class="nav-links">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="schedule.html">Schedule</a></li>
+      <li><a href="register.html">Register</a></li>
+      <li><a href="history.html">History</a></li>
+      <li><a href="payment.html">Payment</a></li>
+      <li><a href="support.html">Support</a></li>
+    </ul>
+  </nav>
+
+  <main class="support-page">
+    <h2>💬 Support</h2>
+
+    <!-- Chat Simulation -->
+    <section class="support-section">
+      <h3>1. Chat with an Advisor</h3>
+      <button id="chat-btn" class="dash-btn">Start Chat</button>
+      <p id="chat-response" class="chat-message"></p>
+    </section>
+
+    <!-- Appointment Form -->
+    <section class="support-section" style="margin-top: 40px;">
+      <h3>2. Schedule an Appointment</h3>
+      <form id="appointment-form">
+        <label for="issue">Describe Your Issue:</label>
+        <textarea id="issue" required></textarea>
+
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" required />
+
+        <label for="dates">Available Dates:</label>
+        <input type="text" id="dates" placeholder="e.g. Mon/Wed after 2pm" required />
+
+        <label for="ksuid">KSU ID:</label>
+        <input type="text" id="ksuid" required />
+
+        <button type="submit" class="dash-btn">Submit Request</button>
+        <p id="appointment-msg" class="chat-message"></p>
+      </form>
+    </section>
+  </main>
+
+  <script src="../src/app.js"></script>
+</body>
+</html>

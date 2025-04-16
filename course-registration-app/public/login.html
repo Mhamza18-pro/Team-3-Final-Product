@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login | Owl Express</title>
+  <link rel="stylesheet" href="../src/style.css" />
+</head>
+<body class="login-body">
+  <div class="login-container">
+    <h1>Welcome to Owl Express</h1>
+
+    <!-- Login Form -->
+    <form id="login-form">
+      <label for="username">KSU NetID</label>
+      <input type="text" id="username" required />
+
+      <label for="password">Password</label>
+      <input type="password" id="password" required />
+
+      <button type="submit" class="dash-btn">Login</button>
+      <p id="login-error" class="error-message"></p>
+    </form>
+
+    <!-- Login Hint for Testers -->
+    <p class="login-hint">
+      <strong>Test Credentials:</strong><br />
+      Username: <code>student1</code><br />
+      Password: <code>password</code>
+    </p>
+  </div>
+
+  <script src="../src/app.js"></script>
+</body>
+</html>
