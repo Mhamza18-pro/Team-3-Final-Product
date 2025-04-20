@@ -16,26 +16,33 @@
       <li><a href="history.html">History</a></li>
       <li><a href="payment.html">Payment</a></li>
       <li><a href="support.html">Support</a></li>
-    </ul>
+      <li>
+        <a href="login.html" id="logout-btn">
+          Log Out
+        </a>
+      </li>      
+   </ul>
   </nav>
-
+  
   <main class="registration">
-    <h3>Time Ticket Enabled. You can now register for classes!</h3>
-    <p>4/14/25 - 8:00 AM</p>
     <h2>📚 Register for Classes</h2>
 
     <form id="register-form">
-      <table class="schedule-table" style="width:800px">
+      <table class="schedule-table">
         <thead>
           <tr>
             <th>CRN</th>
             <th>Course</th>
+            <th>Description</th>
+            <th>Professor</th>
+            <th>Structure</th>
+            <th>Seats</th>
             <th>Days</th>
             <th>Time</th>
-            <th>Professor</th>
+            <th>Prerequisites</th>
             <th>Register</th>
           </tr>
-        </thead>
+        </thead>        
         <tbody id="course-list">
           <!-- JavaScript will inject rows here -->
         </tbody>
@@ -45,17 +52,21 @@
 
     <h2 style="margin-top:40px;">📋 Current Schedule</h2>
     <form id="drop-form">
-      <table class="schedule-table" style="width:800px">
+      <table class="schedule-table">
         <thead>
           <tr>
             <th>CRN</th>
             <th>Course</th>
+            <th>Description</th>
+            <th>Professor</th>
+            <th>Structure</th>
+            <th>Seats</th>
             <th>Days</th>
             <th>Time</th>
-            <th>Professor</th>
-            <th>Drop</th>
+            <th>Prerequisites</th>
+            <th>Register</th>
           </tr>
-        </thead>
+        </thead>        
         <tbody id="current-schedule">
           <!-- JavaScript will inject registered courses here -->
         </tbody>
